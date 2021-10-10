@@ -1,4 +1,4 @@
-import avatar from '../../img/jorge_reyes.jpg';
+import CartWidget from './CartWidget';
 import './navbar.css';
 
 export const Navbar = () => {
@@ -13,6 +13,7 @@ export const Navbar = () => {
                 <li> <a href = "products.html" > Productos </a></li>
                 <li> <a href = "account.html" > Mi cuenta </a></li>
             </ul>
+            <CartWidget/>
         </div>
     )
 }
